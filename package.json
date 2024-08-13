@@ -1,6 +1,6 @@
 {
   "name": "nobak-docs",
-  "version": "0.0.0",
+  "version": "0.0.0-d74f774f76ec",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
@@ -10,6 +10,7 @@
     "deploy": "npm run build && wrangler pages deploy ./build",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
+    "pull-request": "node ./scripts/pull-request.cjs",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc"
