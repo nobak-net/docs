@@ -30,7 +30,7 @@ git commit -m "${newVersion}" &&
 git checkout -b "${newVersion}" && 
 git push origin "${newVersion}" &&
 git checkout main &&
-open "https://github.com/nobak-net/nobak-docs/pull/new/${newVersion}"
+open "https://github.com/nobak-net/docs/pull/new/${newVersion}"
 `;
 
 exec(gitCommands, (error, stdout, stderr) => {
