@@ -1,6 +1,6 @@
 {
   "name": "nobak-docs",
-  "version": "0.0.0-8d0bb4a19faf",
+  "version": "0.0.0-f03165c244df",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
